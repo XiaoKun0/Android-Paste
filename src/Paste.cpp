@@ -36,7 +36,7 @@ namespace {
     }
 
     // Dex储存路径
-    const std::string FilePath = "/data/adb/ET_Paste.dex";
+    const std::string FilePath = "/sdcard/Android/ET_Paste.dex";
 
     bool InitDex() {
         if (FileExists(FilePath)) return true;
